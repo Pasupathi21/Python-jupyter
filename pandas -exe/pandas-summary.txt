@@ -1,0 +1,5 @@
+Pandas build on top of numpy and open source
+
+data visualization
+data clean and preparation
+read excel and csv also web sites
