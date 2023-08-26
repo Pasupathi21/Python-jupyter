@@ -1,10 +1,10 @@
 import pandas as pd
 
-
+print('----------------------- one------------------------')
 s_data = [10, 20, 30, 40]
 s_label = ['Apple', 'Banana', 'Orange', 'Kiwi']
 pd_one = pd.Series(data= s_data, index=s_label)
-print(pd_one['Kiwi'])
+print(pd_one)
 
 print('--------------------------Dictionary----------------------------')
 # Dictionary to PD series
@@ -19,3 +19,12 @@ print('--------------------------Series default index----------------------')
 
 pd_three = pd.Series(data=s_label)
 print(pd_three)
+
+
+print('---------------------------------Addition operation of two series-----------------------------------------------')
+
+pd_addition = pd_one + pd_two
+print(pd_addition)
+
+print('-------------------Addtion with different data series------------------------')
+print(pd_three + pd_two)
